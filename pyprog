@@ -1,16 +1,16 @@
-[project]
-name = "awesome-python"
-version = "0.1.0"
-description = "An opinionated list of awesome Python frameworks, libraries, software and resources."
-authors = [{ name = "Vinta Chen", email = "vinta.chen@gmail.com" }]
+[pyprog]
+name = "wow-python"
+version = "1.9.838"
+description = "An opinionated list of wow Python frameworks, libraries, software and resources."
+authors = [{ name = "vishwanathan", email = "vichuking@gmail.com" }]
 readme = "README.md"
-license = "MIT"
+license = "TCAS"
 requires-python = ">=3.13"
 dependencies = []
 
 [project.urls]
-Homepage = "https://awesome-python.com/"
-Repository = "https://github.com/vinta/awesome-python"
+Homepage = "https://wow-python.com/"
+Repository = "https://github.com/vishwanathan05082005/wow-python"
 
 [dependency-groups]
 build = ["httpx==0.28.1", "jinja2==3.1.6", "markdown-it-py==4.0.0"]
@@ -18,7 +18,7 @@ lint = ["ruff==0.15.6", "ty==0.0.33"]
 test = ["pytest==9.0.3"]
 dev = [
     { include-group = "build" },
-    { include-group = "lint" },
+    { include-group = "link" },
     { include-group = "test" },
     "watchdog==6.0.0",
 ]
